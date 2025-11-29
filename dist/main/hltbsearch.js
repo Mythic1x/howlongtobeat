@@ -161,8 +161,8 @@ class HltbSearch {
 }
 HltbSearch.BASE_URL = 'https://howlongtobeat.com/';
 HltbSearch.DETAIL_URL = `${HltbSearch.BASE_URL}game?id=`;
-HltbSearch.SEARCH_URL = `${HltbSearch.BASE_URL}api/seek/`;
+HltbSearch.SEARCH_URL = `${HltbSearch.BASE_URL}api/locate/`;
 HltbSearch.IMAGE_URL = `${HltbSearch.BASE_URL}games/`;
-HltbSearch.SEARCH_KEY_PATTERN = /"\/api\/seek\/".concat\("([a-zA-Z0-9]+)"\).concat\("([a-zA-Z0-9]+)"\)/g;
+HltbSearch.SEARCH_KEY_PATTERN = /"\/api\/locate\/".concat\("([a-zA-Z0-9]+)"\).concat\("([a-zA-Z0-9]+)"\)/g;
 exports.HltbSearch = HltbSearch;
 //# sourceMappingURL=hltbsearch.js.map
